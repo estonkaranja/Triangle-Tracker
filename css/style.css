@@ -1,0 +1,107 @@
+body{
+  font-family: Arial, Helvetica,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+.cities {
+  background-image: url("../images/download\ \(2\).jpeg");
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+header{
+  background:greenyellow;
+  color: pink;
+  padding-top: 30px;
+  min-height: 70px;
+  border: 1px solid green;
+}
+header a{
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header nav{
+  float: center;
+  margin-top: 30px;
+}
+header .current a{
+  color: red;
+  font-weight: bold;
+  float: right;
+}
+header a:hover{
+  color: #ffffff;
+  font-weight: bold;
+}
+ul{
+  margin: 0;
+  padding:0;
+}
+.dark{
+  padding: 15px;
+    background-image: url("../images/download\ \(2\).jpeg");
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#banner h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#banner p{
+  font-size: 20px;
+}
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+aside#side1{
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  background-color: grey;
+}
+article#main-col{
+  float: left;
+  width: 65%;
+}
+#more{
+  color: red;
+}
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  background-color: green;
+  text-align: center;
+}
+@media(max-height: 768px){
+  header #banner,
+  header nav,
+  header nav li{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+}
